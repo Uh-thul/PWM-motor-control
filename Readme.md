@@ -1,3 +1,1 @@
-PWM DC motor Control with interrupt driven e stop 
-
-
+This project implements PWM-based DC motor speed control on Arduino, with a software emergency-stop (E-Stop) system driven entirely through Serial Monitor commands. When triggered, the E-Stop immediately halts the motor and cuts power to a solenoid valve via a relay, providing a safe shutdown path for both the motive and fluid-control elements of the system.
